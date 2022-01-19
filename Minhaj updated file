@@ -1,0 +1,97 @@
+<?php
+
+$name = "Minhaj Uddin";
+$courseName = "Web Development";
+$id = "w-039";
+$batch = "03";
+$bornmonth = 3;
+$bornyear = 2000;
+$age= 2022 - $bornyear;
+
+ 
+echo ("<h2>About Me</h2>");
+echo ("<hr style=height:2px;border-width:0;color:red;background-color:red>");
+
+//echo "<hr style=width:55%;text-align:left;margin-left:0;>";
+
+   echo ("Hello! I'm $name .<br>");
+
+   echo "<hr style=width:55%;text-align:left;margin-left:0>";
+
+   echo ("I am completing the <b> $courseName </b> course from Sheikh Kamal IT Training and Incubation Center.<br>");
+
+   echo "<hr style=width:55%;text-align:left;margin-left:0>";
+
+   echo ( "Im from batch: $batch .<br>");
+
+   echo "<hr style=width:55%;text-align:left;margin-left:0>";
+
+   echo ("My ID: $id .<br>");
+
+   echo "<hr style=width:55%;text-align:left;margin-left:0>";
+
+   switch ($bornmonth) {
+
+    case '1';
+    echo "I Born In January, $bornyear";
+    break;
+
+    case '2';
+    echo "I Born In February, $bornyear";
+    break;
+
+    case '3';
+    echo "I Born In March, $bornyear";
+    break;
+
+    case '4';
+    echo "I Born In April, $bornyear";
+    break;
+
+    case '5';
+    echo "I Born In May,$bornyear";
+    break;
+
+    case '6';
+    echo "I Born In June,$bornyear";
+    break;
+
+    case '7';
+    echo "I Born In July, $bornyear";
+    break;
+
+    case '8';
+    echo "I Born In August, $bornyear";
+    break;
+
+    case '9';
+    echo "I Born In September, $bornyear";
+    break;
+
+    case '10';
+    echo "I Born In October, $bornyear";
+    break;
+
+    case '11';
+    echo "I Born In November, $bornyear";
+    break;
+
+    case '12';
+    echo "I Born In February, $bornyear";
+    break;
+
+    default:
+    echo "Input Invalid, Please Try Again";
+    break;
+
+}
+echo ("</br>");
+
+echo "<hr style=width:55%;text-align:left;margin-left:0>";
+
+echo ("I'm $age years old.");
+
+echo "<hr style=width:55%;text-align:left;margin-left:0>";
+
+
+?>
